@@ -1,4 +1,5 @@
-import Image from 'next/image'
+import Image from 'next/image';
+import Foo from "../app/components";
 
 export default function Home() {
   return (
@@ -46,6 +47,7 @@ export default function Home() {
           target="_blank"
           rel="noopener noreferrer"
         >
+          <Foo/>
           <h2 className={`mb-3 text-2xl font-semibold`}>
             Docs{' '}
             <span className="inline-block transition-transform group-hover:translate-x-1 motion-reduce:transform-none">
